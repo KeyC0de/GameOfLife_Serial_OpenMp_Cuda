@@ -1,0 +1,11 @@
+# Initial configuration
+# 1. gcc env var
+# 2. MPICH configuration
+# 3. Paraver env var
+
+set path=(/usr/bin $path);
+setenv MPICH_HOME /usr/local/mpich3;
+set path=($MPICH_HOME/bin $path);
+setenv TMPDIR /tmp;
+setenv LC_ALL "en_US.UTF8";
+set path=(/usr/local/paraver/bin $path)
