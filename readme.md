@@ -50,7 +50,9 @@ The *_display variants show the results during game play, i.e. display the evolu
 
 Example screenshot:
 
-![Grid Screenshot](_present/grid_screenshot.jpg)
+<p style="text-align: center;">
+	<img src="_present/grid_screenshot.jpg" />
+</p>
 
 For reference we use the ASCII . (dot) to indicate a dead cell and the # (hash) to indicate a live cell.
 
