@@ -1,9 +1,9 @@
-##############################################################################################
-## Game of Life - Makefile																	##
-## Nikos Lazaridis, M1485																	##
-## University of Athens (UoA), Department of Informatics (DIT),								##
-## Parallel Computing Systems semester project												##
-##############################################################################################
+##########################################################################################
+## Game of Life - Makefile																 #	##																						 #
+## Nikos Lazaridis, M1485																 #	##																						 #
+## University of Athens (UoA), Department of Informatics (DIT),							 #	##																						 #
+## Parallel Computing Systems semester project											 #	##																						 #
+##########################################################################################
 
 # set bash shell as the make shell (sh is the default)
 SHELL:=/bin/bash
@@ -130,7 +130,3 @@ display_results :
 
 clean :
 	@rm -f $(EXECUTABLES) $(OBJECTS)
-
-
-
-
