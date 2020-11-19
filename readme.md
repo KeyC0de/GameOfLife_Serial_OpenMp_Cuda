@@ -1,4 +1,7 @@
-# <p style="text-align: center;">The Game of Life</p>
+<h1 align="center">
+	<a href="https://github.com/KeyC0de/GameOfLife_Serial_OpenMp_Cuda">The Game of Life</a>
+</h1>
+<hr>
 
 
 ### Description
