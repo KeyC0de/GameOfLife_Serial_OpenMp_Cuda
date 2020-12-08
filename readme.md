@@ -31,7 +31,7 @@ There are 6 different implementations:
 C and C++ are the programming languages used throughout.
 Out of those 6 only the last two are GPU accelerated. The first 4 are using the CPU in its entirety.
 
-There lies complete documentation with esoteric programming details in Greek in Game\_ofLife\_M1485 pdf document. If there is a demand I will think about translating the project in English. However, I will mention enough key points in this document in my attempt to cover most, if not all, of the critical stuff. Furthermore, the code is thoroughly documented. Of course, if there's anything else you wish feel free to contact me.  
+There lies complete documentation with esoteric programming details in Greek in Game\_ofLife\_M1485 pdf document. If there is a demand I will think about translating the project in English. However, I will mention enough key points in this document in my attempt to cover most, if not all, of the critical stuff. Furthermore, the code is thoroughly documented. Of course, if there's anything else you wish feel free to contact me.
 
 I have first implemented the basic algorithm using the naive - serial CPU implementation. Then moved on to parallel CPU code. It was more intuitive this way and I was learning along the OpenMP, MPI and CUDA APIs as I was going. It was my first excursion into MPI and GPU CUDA territories.
 
@@ -99,6 +99,11 @@ Strong Scaling performance on the University's computer:
 <p style="text-align: center;">
 	<img src="_present/strong_scaling.jpg" />
 </p>
+
+
+# Contribute
+
+Please submit any bugs you find through GitHub repository 'Issues' page with details describing how to replicate the problem. If you liked it or you learned something new give it a star, clone it, contribute to it whatever. Enjoy.
 
 
 ### License
