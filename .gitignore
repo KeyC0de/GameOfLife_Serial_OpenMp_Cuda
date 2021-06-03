@@ -292,3 +292,5 @@ __pycache__/
 
 # exclude files
 game_of_life/final_cuda_Grid.txt
+readme.html
+readme.site.md
